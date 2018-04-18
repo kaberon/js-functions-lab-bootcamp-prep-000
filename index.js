@@ -16,5 +16,6 @@ return(`Happy ${holiday}, ${name}!`)
 
 happyHolidayTo("Independence Day", "you")
 
-holidayCountdown(holiday,days)
-return('It')
+function holidayCountdown(holiday,days) {
+`It's ${days} days until ${holiday}!`
+}
